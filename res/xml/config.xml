@@ -15,16 +15,21 @@
 
     <feature name="http://api.phonegap.com/1.0/device" />
 
+
+
     <preference name="phonegap-version" value="2.1.0" />
     <preference name="orientation"      value="portrait" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="true" />
 
+
+    <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
+
     <icon src="icon.png" />
     <icon src="res/icon/android/icon-48.png"   gap:platform="android"    gap:density="mdpi" />
     
     
-    <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/drawable/splash.png"  gap:platform="android" gap:density="mdpi" />
     
 	
 	<access origin="https://build.phonegap.com" />

@@ -37,6 +37,10 @@ $(document).ready(function(e) {
 	);
 	*/
 	document.addEventListener("deviceready",function(){
+
+        navigator.splashscreen.show();
+
+
 		$('.btn').tap(function(){
 			var boton = (($(this).attr('class')).split(' '))[1];
 			switch(boton){
